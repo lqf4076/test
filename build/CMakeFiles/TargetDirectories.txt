@@ -1,4 +1,0 @@
-D:/Git/github/build/CMakeFiles/a.dir
-D:/Git/github/build/CMakeFiles/main.dir
-D:/Git/github/build/CMakeFiles/edit_cache.dir
-D:/Git/github/build/CMakeFiles/rebuild_cache.dir
