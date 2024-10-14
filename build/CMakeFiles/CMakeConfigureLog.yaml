@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-2e4k9t"
-      binary: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-2e4k9t"
+      source: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-9cc8ba"
+      binary: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-9cc8ba"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,21 +71,21 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-2e4k9t'
+        Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-9cc8ba'
         
-        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_cf982/fast
-        D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cf982.dir\\build.make CMakeFiles/cmTC_cf982.dir/build
-        mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-2e4k9t'
-        Building C object CMakeFiles/cmTC_cf982.dir/CMakeCCompilerABI.c.obj
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_27d5b/fast
+        D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_27d5b.dir\\build.make CMakeFiles/cmTC_27d5b.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-9cc8ba'
+        Building C object CMakeFiles/cmTC_27d5b.dir/CMakeCCompilerABI.c.obj
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
         Thread model: posix
         gcc version 4.9.2 (tdm64-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccndApsL.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc9ZHL9M.s
         GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
         	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -104,17 +104,17 @@ events:
         	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: d23ebdb4e081c97b257cdcdb7f0d8f7e
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccndApsL.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc9ZHL9M.s
         GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703
         COMPILER_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-        Linking C executable cmTC_cf982.exe
-        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_cf982.dir\\link.txt --verbose=1
-        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_cf982.dir/objects.a
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_cf982.dir/objects.a @CMakeFiles\\cmTC_cf982.dir\\objects1.rsp
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_cf982.dir/objects.a -Wl,--no-whole-archive -o cmTC_cf982.exe -Wl,--out-implib,libcmTC_cf982.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_27d5b.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_27d5b.dir\\link.txt --verbose=1
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_27d5b.dir/objects.a
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_27d5b.dir/objects.a @CMakeFiles\\cmTC_27d5b.dir\\objects1.rsp
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_27d5b.dir/objects.a -Wl,--no-whole-archive -o cmTC_27d5b.exe -Wl,--out-implib,libcmTC_27d5b.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe
@@ -124,9 +124,9 @@ events:
         gcc version 4.9.2 (tdm64-1) 
         COMPILER_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf982.exe' '-mtune=generic' '-march=x86-64'
-         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccHjL8ic.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_cf982.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_cf982.dir/objects.a --no-whole-archive --out-implib libcmTC_cf982.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
-        mingw32-make.exe[1]: Leaving directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-2e4k9t'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27d5b.exe' '-mtune=generic' '-march=x86-64'
+         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc1ZjKR7.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_27d5b.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_27d5b.dir/objects.a --no-whole-archive --out-implib libcmTC_27d5b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+        mingw32-make.exe[1]: Leaving directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-9cc8ba'
         
       exitCode: 0
   -
@@ -160,21 +160,21 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-2e4k9t']
+        ignore line: [Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-9cc8ba']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_cf982/fast]
-        ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_cf982.dir\\build.make CMakeFiles/cmTC_cf982.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-2e4k9t']
-        ignore line: [Building C object CMakeFiles/cmTC_cf982.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_27d5b/fast]
+        ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_27d5b.dir\\build.make CMakeFiles/cmTC_27d5b.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-9cc8ba']
+        ignore line: [Building C object CMakeFiles/cmTC_27d5b.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 4.9.2 (tdm64-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccndApsL.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc9ZHL9M.s]
         ignore line: [GNU C (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -193,8 +193,8 @@ events:
         ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: d23ebdb4e081c97b257cdcdb7f0d8f7e]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccndApsL.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc9ZHL9M.s]
         ignore line: [GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703]
         ignore line: [COMPILER_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/]
@@ -205,12 +205,12 @@ events:
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_cf982.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking C executable cmTC_cf982.exe]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_cf982.dir\\link.txt --verbose=1]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_cf982.dir/objects.a]
-        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_cf982.dir/objects.a @CMakeFiles\\cmTC_cf982.dir\\objects1.rsp]
-        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_cf982.dir/objects.a -Wl --no-whole-archive -o cmTC_cf982.exe -Wl --out-implib libcmTC_cf982.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_27d5b.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_27d5b.exe]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_27d5b.dir\\link.txt --verbose=1]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_27d5b.dir/objects.a]
+        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_27d5b.dir/objects.a @CMakeFiles\\cmTC_27d5b.dir\\objects1.rsp]
+        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_27d5b.dir/objects.a -Wl --no-whole-archive -o cmTC_27d5b.exe -Wl --out-implib libcmTC_27d5b.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe]
@@ -227,13 +227,13 @@ events:
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_cf982.exe' '-mtune=generic' '-march=x86-64']
-        link line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccHjL8ic.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_cf982.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_cf982.dir/objects.a --no-whole-archive --out-implib libcmTC_cf982.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_27d5b.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc1ZjKR7.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_27d5b.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_27d5b.dir/objects.a --no-whole-archive --out-implib libcmTC_27d5b.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccHjL8ic.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc1ZjKR7.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -254,7 +254,7 @@ events:
           arg [--exclude-libs=libpthread.a] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_cf982.exe] ==> ignore
+          arg [cmTC_27d5b.exe] ==> ignore
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> obj [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o]
           arg [-LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2] ==> dir [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2]
@@ -264,10 +264,10 @@ events:
           arg [-LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../..] ==> dir [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_cf982.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_27d5b.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_cf982.dll.a] ==> ignore
+          arg [libcmTC_27d5b.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -314,8 +314,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-6s0eyb"
-      binary: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-6s0eyb"
+      source: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-v8mo5y"
+      binary: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-v8mo5y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -324,21 +324,21 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-6s0eyb'
+        Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-v8mo5y'
         
-        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_3dfcb/fast
-        D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3dfcb.dir\\build.make CMakeFiles/cmTC_3dfcb.dir/build
-        mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-6s0eyb'
-        Building CXX object CMakeFiles/cmTC_3dfcb.dir/CMakeCXXCompilerABI.cpp.obj
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_37527/fast
+        D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_37527.dir\\build.make CMakeFiles/cmTC_37527.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-v8mo5y'
+        Building CXX object CMakeFiles/cmTC_37527.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
         Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs
         Thread model: posix
         gcc version 4.9.2 (tdm64-1) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cckl8NU2.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cconvN73.s
         GNU C++ (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)
         	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -363,17 +363,17 @@ events:
         	compiled by GNU C version 4.9.2, GMP version 4.3.2, MPFR version 2.4.2, MPC version 0.8.2
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 199b949b87568ce5f1a18d5adc9fa901
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cckl8NU2.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cconvN73.s
         GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703
         COMPILER_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_3dfcb.exe
-        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3dfcb.dir\\link.txt --verbose=1
-        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3dfcb.dir/objects.a
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_3dfcb.dir/objects.a @CMakeFiles\\cmTC_3dfcb.dir\\objects1.rsp
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_3dfcb.dir/objects.a -Wl,--no-whole-archive -o cmTC_3dfcb.exe -Wl,--out-implib,libcmTC_3dfcb.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_37527.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_37527.dir\\link.txt --verbose=1
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_37527.dir/objects.a
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_37527.dir/objects.a @CMakeFiles\\cmTC_37527.dir\\objects1.rsp
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_37527.dir/objects.a -Wl,--no-whole-archive -o cmTC_37527.exe -Wl,--out-implib,libcmTC_37527.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
         Using built-in specs.
         COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe
@@ -383,9 +383,9 @@ events:
         gcc version 4.9.2 (tdm64-1) 
         COMPILER_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/;D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3dfcb.exe' '-mtune=generic' '-march=x86-64'
-         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc7tzt7m.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_3dfcb.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_3dfcb.dir/objects.a --no-whole-archive --out-implib libcmTC_3dfcb.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
-        mingw32-make.exe[1]: Leaving directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-6s0eyb'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37527.exe' '-mtune=generic' '-march=x86-64'
+         D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccPa5Tms.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_37527.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_37527.dir/objects.a --no-whole-archive --out-implib libcmTC_37527.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o
+        mingw32-make.exe[1]: Leaving directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-v8mo5y'
         
       exitCode: 0
   -
@@ -425,21 +425,21 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-6s0eyb']
+        ignore line: [Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-v8mo5y']
         ignore line: []
-        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_3dfcb/fast]
-        ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3dfcb.dir\\build.make CMakeFiles/cmTC_3dfcb.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-6s0eyb']
-        ignore line: [Building CXX object CMakeFiles/cmTC_3dfcb.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_37527/fast]
+        ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_37527.dir\\build.make CMakeFiles/cmTC_37527.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-v8mo5y']
+        ignore line: [Building CXX object CMakeFiles/cmTC_37527.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
         ignore line: [Configured with: ../../../src/gcc-4.9.2/configure --build=x86_64-w64-mingw32 --enable-targets=all --enable-languages=ada,c,c++,fortran,lto,objc,obj-c++ --enable-libgomp --enable-lto --enable-graphite --enable-cxx-flags=-DWINPTHREAD_STATIC --disable-build-with-cxx --disable-build-poststage1-with-cxx --enable-libstdcxx-debug --enable-threads=posix --enable-version-specific-runtime-libs --enable-fully-dynamic-string --enable-libstdcxx-threads --enable-libstdcxx-time --with-gnu-ld --disable-werror --disable-nls --disable-win32-registry --prefix=/mingw64tdm --with-local-prefix=/mingw64tdm --with-pkgversion=tdm64-1 --with-bugurl=http://tdm-gcc.tdragon.net/bugs]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 4.9.2 (tdm64-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cckl8NU2.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/cc1plus.exe -quiet -v -iprefix D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/ -D_REENTRANT D:\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cconvN73.s]
         ignore line: [GNU C++ (tdm64-1) version 4.9.2 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -464,8 +464,8 @@ events:
         ignore line: [	compiled by GNU C version 4.9.2  GMP version 4.3.2  MPFR version 2.4.2  MPC version 0.8.2]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 199b949b87568ce5f1a18d5adc9fa901]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cckl8NU2.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cconvN73.s]
         ignore line: [GNU assembler version 2.24.51 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.24.51.20140703]
         ignore line: [COMPILER_PATH=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/]
@@ -476,12 +476,12 @@ events:
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_3dfcb.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_3dfcb.exe]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_3dfcb.dir\\link.txt --verbose=1]
-        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_3dfcb.dir/objects.a]
-        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_3dfcb.dir/objects.a @CMakeFiles\\cmTC_3dfcb.dir\\objects1.rsp]
-        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_3dfcb.dir/objects.a -Wl --no-whole-archive -o cmTC_3dfcb.exe -Wl --out-implib libcmTC_3dfcb.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_37527.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_37527.exe]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_37527.dir\\link.txt --verbose=1]
+        ignore line: [D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_37527.dir/objects.a]
+        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_37527.dir/objects.a @CMakeFiles\\cmTC_37527.dir\\objects1.rsp]
+        ignore line: [D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_37527.dir/objects.a -Wl --no-whole-archive -o cmTC_37527.exe -Wl --out-implib libcmTC_37527.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe]
@@ -498,13 +498,13 @@ events:
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3dfcb.exe' '-mtune=generic' '-march=x86-64']
-        link line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc7tzt7m.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_3dfcb.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_3dfcb.dir/objects.a --no-whole-archive --out-implib libcmTC_3dfcb.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37527.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe -plugin D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll -plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccPa5Tms.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -m i386pep --exclude-libs=libpthread.a -Bdynamic -o cmTC_37527.exe D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2 -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib -LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../.. --whole-archive CMakeFiles\\cmTC_37527.dir/objects.a --no-whole-archive --out-implib libcmTC_37527.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lmoldname -lmingwex -lmsvcrt D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtend.o]
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=D:/LQF/Program/Dev-Cpp/MinGW64/bin/../libexec/gcc/x86_64-w64-mingw32/4.9.2/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\cc7tzt7m.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\刘庆丰\\AppData\\Local\\Temp\\ccPa5Tms.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
@@ -525,7 +525,7 @@ events:
           arg [--exclude-libs=libpthread.a] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_3dfcb.exe] ==> ignore
+          arg [cmTC_37527.exe] ==> ignore
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o] ==> obj [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib/../lib/crtbegin.o]
           arg [-LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2] ==> dir [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2]
@@ -535,10 +535,10 @@ events:
           arg [-LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../..] ==> dir [D:/LQF/Program/Dev-Cpp/MinGW64/bin/../lib/gcc/x86_64-w64-mingw32/4.9.2/../../..]
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_3dfcb.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_37527.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_3dfcb.dll.a] ==> ignore
+          arg [libcmTC_37527.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -592,8 +592,8 @@ events:
     checks:
       - "Detecting CXX compile features"
     directories:
-      source: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-getdol"
-      binary: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-getdol"
+      source: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-boatmi"
+      binary: "D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-boatmi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -602,19 +602,19 @@ events:
       variable: "CMAKE_CXX_FEATURE_TEST"
       cached: true
       stdout: |
-        Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-getdol'
+        Change Dir: 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-boatmi'
         
-        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_c44b3/fast
-        D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_c44b3.dir\\build.make CMakeFiles/cmTC_c44b3.dir/build
-        mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-getdol'
-        Building CXX object CMakeFiles/cmTC_c44b3.dir/feature_tests.cxx.obj
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe   -std=c++14 -o CMakeFiles\\cmTC_c44b3.dir\\feature_tests.cxx.obj -c D:\\Git\\github\\build\\CMakeFiles\\CMakeScratch\\TryCompile-getdol\\feature_tests.cxx
-        Linking CXX executable cmTC_c44b3.exe
-        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_c44b3.dir\\link.txt --verbose=1
-        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_c44b3.dir/objects.a
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_c44b3.dir/objects.a @CMakeFiles\\cmTC_c44b3.dir\\objects1.rsp
-        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_c44b3.dir/objects.a -Wl,--no-whole-archive -o cmTC_c44b3.exe -Wl,--out-implib,libcmTC_c44b3.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_c44b3.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-getdol'
+        Run Build Command(s): D:/CMake/bin/cmake.exe -E env VERBOSE=1 D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe -f Makefile cmTC_610fa/fast
+        D:/LQF/Program/Dev-Cpp/MinGW64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_610fa.dir\\build.make CMakeFiles/cmTC_610fa.dir/build
+        mingw32-make.exe[1]: Entering directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-boatmi'
+        Building CXX object CMakeFiles/cmTC_610fa.dir/feature_tests.cxx.obj
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe   -std=c++14 -o CMakeFiles\\cmTC_610fa.dir\\feature_tests.cxx.obj -c D:\\Git\\github\\build\\CMakeFiles\\CMakeScratch\\TryCompile-boatmi\\feature_tests.cxx
+        Linking CXX executable cmTC_610fa.exe
+        D:\\CMake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_610fa.dir\\link.txt --verbose=1
+        D:\\CMake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_610fa.dir/objects.a
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\ar.exe qc CMakeFiles\\cmTC_610fa.dir/objects.a @CMakeFiles\\cmTC_610fa.dir\\objects1.rsp
+        D:\\LQF\\Program\\Dev-Cpp\\MinGW64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_610fa.dir/objects.a -Wl,--no-whole-archive -o cmTC_610fa.exe -Wl,--out-implib,libcmTC_610fa.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_610fa.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'D:/Git/github/build/CMakeFiles/CMakeScratch/TryCompile-boatmi'
         
       exitCode: 0
 ...
